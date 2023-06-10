@@ -1,0 +1,51 @@
+/*checkout  page below*/
+.huge-box {
+  background-color: #faf8ed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.small-box {
+  background: rgb(25,241,223);
+  background: linear-gradient(45deg, rgba(25,241,223,1) 0%, rgba(191,200,186,1) 50%, rgba(241,187,187,1) 100%);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 40vw;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+#form-name {
+  font-size: 18px;
+}
+
+input {
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background-color: transparent;
+}
+
+.home-button {
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .home-button:hover {
+    transform: scale(1.1);
+  }
+
+  .home-button:active {
+    transform: scale(0.9);
+  }
+}
